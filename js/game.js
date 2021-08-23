@@ -59,7 +59,7 @@ class Game{
                         fill("red") 
                         textSize(20)
                        //add code to display the player's name on the respective basket.
-                        text(database.ref(players),x,y);
+                        text(allPlayers[plr].name,x-20,y+20);
                          
                      }
                     
